@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  #box {
+    height: 16vw;
+    width: 100%;
+    background-color: #dadada;
+    padding: 0.2vw 2vw;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+  input {
+    outline: none;
+    padding: 0.5vw 2vw;
+    font-size: 1vw;
+  }
+  h2 {
+    font-size: 1vw;
+  }
+  i{
+    color:  wheat;
+    font-size: 3vw;
+  }
+  #lo{
+    display: none;
+    color: black;
+  }
